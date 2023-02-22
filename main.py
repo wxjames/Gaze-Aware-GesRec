@@ -11,6 +11,8 @@ import tensorflow.keras as keras
 from tapsdk import TapSDK, TapInputMode
 import argparse
 import pickle
+import os
+import time
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--mode', type = str, default = 'online_test')
@@ -85,11 +87,11 @@ def on_raw_sensor_data(identifier, raw_sensor_data):
             globals.T1 += 1
     else:
         if time.time() < globals.first_timestamp + (globals.T1 - 1) * globals.time + globals.iter1 * globals.delta_T:
-            if raw_sensor_data.type == 1:
+            if raw_sensor_data.type == 1 or str(raw_sensor_data.type) == 'IMU':
                 for i in range(2):
                     globals.temp1 = np.append(globals.temp1, [raw_sensor_data.points[i].x, raw_sensor_data.points[i].y,
                                                               raw_sensor_data.points[i].z])
-            elif raw_sensor_data.type == 2:
+            elif raw_sensor_data.type == 2 or str(raw_sensor_data.type) == 'Device':
                 for i in range(5):
                     globals.temp2 = np.append(globals.temp2, [raw_sensor_data.points[i].x, raw_sensor_data.points[i].y,
                                             raw_sensor_data.points[i].z])
