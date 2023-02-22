@@ -1,6 +1,5 @@
 import numpy as np
 import os
-import copy
 
 def initialize():
     global camera_view_ori, camera_view, gaze, time_count, iter, results, name, gesture_name
