@@ -44,10 +44,13 @@ python main.py --mode data_collection --number 33
 ```
 python test_framework.py
 ```
-  The test results would be placed in the [results](https://github.com/wxjames/Gaze-Aware-GesRec/tree/main/results) folder.
+The test results would be placed in the [results](https://github.com/wxjames/Gaze-Aware-GesRec/tree/main/results) folder.
 
-## Reference
+## Citation
 If you find this repo useful in your research, please consider citing:
 ```
 
 ```
+
+## Acknowledgement
+We would like thank the work of [TapSDK](https://github.com/TapWithUs/tap-python-sdk), [ultralytics](https://github.com/ultralytics/yolov5), [SORT](https://github.com/abewley/sort) and [dl-4-tsc](https://github.com/hfawaz/dl-4-tsc) so that we can buiid our work on top.
