@@ -24,4 +24,13 @@ Figure: A pilot study of gaze-aware hand gresture recognition in the lab environ
 The dataset used for offline training is palced in the folder of [ConGes_data](https://github.com/wxjames/Gaze-Aware-GesRec/tree/main/ConGes_data). The framework validation data are provided in the folder of [framework_validation_data](https://github.com/wxjames/Gaze-Aware-GesRec/tree/main/framework_validation_data).
 
 ## Trained Models
-The trained gesture classifier is provided in [models](https://github.com/wxjames/Gaze-Aware-GesRec/tree/main/models) folder. The yolov5 detection model could be downloaded through the following [link](https://drive.google.com/file/d/12uXY_d24uAGX2LTa0Iz0jbDDoYNRveN9/view?usp=share_link).
+The trained gesture classifier is provided in [models](https://github.com/wxjames/Gaze-Aware-GesRec/tree/main/models) folder. The yolov5 detection model could be downloaded through the following [link](https://drive.google.com/file/d/12uXY_d24uAGX2LTa0Iz0jbDDoYNRveN9/view?usp=share_link). It should be palced under the [models](https://github.com/wxjames/Gaze-Aware-GesRec/tree/main/models) folder.
+
+## Offline Training
+The [ConGes_data](https://github.com/wxjames/Gaze-Aware-GesRec/tree/main/ConGes_data) dataset is used for offline training. For the traning details, please refer to the work of [dl-4-tsc](https://github.com/hfawaz/dl-4-tsc).
+
+## Framewrok Validation Test
+* For the real-time online testing:
+```
+python main.py --mode online_test
+```
