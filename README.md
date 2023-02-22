@@ -44,7 +44,7 @@ python main.py --mode data_collection --number 33
 ```
 python test_framework.py
 ```
-The test results would be placed in the [results](https://github.com/wxjames/Gaze-Aware-GesRec/tree/main/results) folder.
+  The test results would be placed in the [results](https://github.com/wxjames/Gaze-Aware-GesRec/tree/main/results) folder.
 
 ## Reference
 If you find this repo useful in your research, please consider citing:
