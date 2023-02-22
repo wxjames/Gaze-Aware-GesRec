@@ -16,3 +16,6 @@ Figure: A pilot study of gaze-aware hand gresture recognition in the lab environ
 * Python3
 * [TapSDK](https://github.com/TapWithUs/tap-python-sdk)
 * [ultralytics](https://github.com/ultralytics/yolov5): The yolov5 repo should be downloaded under the current directory and the files in the ultralytics/yolov5/utils need to be copied to the utils folder under the current directory.
+* websocket-client
+* PyTorch
+* Keras
