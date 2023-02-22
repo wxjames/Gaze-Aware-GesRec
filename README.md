@@ -21,4 +21,7 @@ Figure: A pilot study of gaze-aware hand gresture recognition in the lab environ
 * Keras
 
 ## Dataset
-The dataset used for offline training is palced in the folder of [ConGes_data](https://github.com/wxjames/Gaze-Aware-GesRec/tree/main/ConGes_data). The framework validation data are in the folder of [framework_validation_data](https://github.com/wxjames/Gaze-Aware-GesRec/tree/main/framework_validation_data).
+The dataset used for offline training is palced in the folder of [ConGes_data](https://github.com/wxjames/Gaze-Aware-GesRec/tree/main/ConGes_data). The framework validation data are provided in the folder of [framework_validation_data](https://github.com/wxjames/Gaze-Aware-GesRec/tree/main/framework_validation_data).
+
+## Trained Models
+The trained gesture classifier is provided in [models](https://github.com/wxjames/Gaze-Aware-GesRec/tree/main/models) folder. The yolov5 detection model could downloaded through the following link: .
