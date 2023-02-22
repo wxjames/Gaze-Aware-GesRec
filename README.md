@@ -34,3 +34,20 @@ The [ConGes_data](https://github.com/wxjames/Gaze-Aware-GesRec/tree/main/ConGes_
 ```
 python main.py --mode online_test
 ```
+
+* For the data collection:
+```
+python main.py --mode data_collection --number 33
+```
+
+* For the validation test using the collected data:
+```
+python test_framework.py
+```
+The test results would be placed in the [results](https://github.com/wxjames/Gaze-Aware-GesRec/tree/main/results) folder.
+
+## Reference
+If you find this repo useful in your research, please consider citing:
+```
+
+```
