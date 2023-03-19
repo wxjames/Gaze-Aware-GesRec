@@ -51,4 +51,4 @@ If you find this repo useful in your research, please consider citing:
 ```
 
 ## Acknowledgement
-We would like thank the work of [TapSDK](https://github.com/TapWithUs/tap-python-sdk), [ultralytics](https://github.com/ultralytics/yolov5), [SORT](https://github.com/abewley/sort) and [dl-4-tsc](https://github.com/hfawaz/dl-4-tsc) so that we can build our work on top.
+We would like to thank the work of [TapSDK](https://github.com/TapWithUs/tap-python-sdk), [ultralytics](https://github.com/ultralytics/yolov5), [SORT](https://github.com/abewley/sort) and [dl-4-tsc](https://github.com/hfawaz/dl-4-tsc) so that we can build our work on top.
