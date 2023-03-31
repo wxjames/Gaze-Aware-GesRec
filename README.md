@@ -1,5 +1,5 @@
 # Gaze-Aware Hand Gesture Recognition for Human-Robot Collaboration
-This repo represents the implementation of the article Gaze-Aware Hand Gesture Recognition for Intelligent Construction, including dataset, trained models and code.
+This repo represents the implementation of the article [Gaze-Aware Hand Gesture Recognition for Intelligent Construction](https://doi.org/10.1016/j.engappai.2023.106179), including dataset, trained models and code.
 <p align="center">
   <img width="854" height="480" src="https://github.com/wxjames/Gaze-Aware-GesRec/blob/main/figures/gaze_aware_gesture_recognition.gif">
 </p>
