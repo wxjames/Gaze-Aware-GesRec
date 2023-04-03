@@ -47,7 +47,15 @@ The test results would be generated in the [results](https://github.com/wxjames/
 ## Citation
 If you find this repo useful in your research, please consider citing:
 ```
-
+@article{wang2023gaze,
+  title={Gaze-aware hand gesture recognition for intelligent construction},
+  author={Wang, Xin and Veeramani, Dharmaraj and Zhu, Zhenhua},
+  journal={Engineering Applications of Artificial Intelligence},
+  volume={123},
+  pages={106179},
+  year={2023},
+  publisher={Elsevier}
+}
 ```
 
 ## Acknowledgement
